@@ -7,11 +7,8 @@ interface IProps {}
 
 const App: FC<IProps> = (props: IProps) => {
   return (
-    <div>
-      <Hello name="h1" />
-      <Hello name="h2" />
-      <Hello name="h3" />
-      <Hello name="h4" />
+    <div className="container-fluid bg-primary p-3">
+      <Hello name="Component 1" />
     </div>
   );
 };
