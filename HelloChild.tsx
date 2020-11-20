@@ -2,7 +2,7 @@ import React, { ChangeEvent, FC, useState } from "react";
 
 interface IProps {
   text: string;
-  size?: number;
+  size: number;
 }
 
 const HelloChild: FC<IProps> = (props: IProps) => {
